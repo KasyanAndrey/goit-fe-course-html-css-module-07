@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module-07</title>
-    
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="container-header">
+    <nav class="page-navigation">
+        <div class="logotype">
+            <a href="#" class="logotype-link">Golden</a>
+        </div>
+        <div class="navigation">
+            <ul class="navigation-list">
+                <li class="navigation-list-item">
+                    <a href="#" class="navigation-list-item-link">home</a>
+                </li>
+                <li class="navigation-list-item">
+                    <a href="#" class="navigation-list-item-link">service</a>
+                </li>
+                <li class="navigation-list-item">
+                    <a href="#" class="navigation-list-item-link">portfolio</a>
+                </li>
+                <li class="navigation-list-item">
+                    <a href="#" class="navigation-list-item-link">about</a>
+                </li>
+                <li class="navigation-list-item">
+                    <a href="#" class="navigation-list-item-link">contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>        
+</header>
+<main class="container-main">
+    <section class="services">
+            <h2 class="services-title">services</h2>
+            <p class="services-sub-title">Lorem ipsum dolor sit amet consectetur.</p>
+            <ul class="services-list">
+                <li class="services-list-items item-basket">                   
+                    <h3 class="list-items-title">E-Commerce</h3>
+                    <p class="list-items-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolore libero voluptatibus nam, explicabo repudiandae itaque.</p>
+                </li>
+                <li class="services-list-items item-laptop">                   
+                    <h3 class="list-items-title">Responsive Web</h3>
+                    <p class="list-items-sub-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas sequi maxime enim iusto placeat! Incidunt, quibusdam.</p>
+                </li>
+                <li class="services-list-items item-locked">                   
+                    <h3 class="list-items-title">Web Security</h3>
+                    <p class="list-items-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, veritatis iusto. Amet sapiente unde magnam modi.</p>
+                </li>
+            </ul>        
+    </section>
+    <section class="contacts">
+        <div class="contact-us">
+            <h2 class="contact-us-title">contact us</h2>
+            <p class="contact-us-sub-title">Lorem ipsum dolor sit amet consectetur.</p>
+            <form action="#" method="GET" class="contact-form">
+                <div class="contact-form-block">
+                    <input name="your name" type="text" class="contact-form-input" placeholder="your name*" required minlength="2">
+                    <input name="your e-mail" type="email" class="contact-form-input" placeholder="your e-mail*" required>
+                    <input name="subject" type="text" class="contact-form-input" placeholder="subject" minlength="2">
+                </div>
+                <div class="contact-form-block">
+                    <textarea name="your message" class="contact-form-textarea" placeholder="your message*" required minlength="10" maxlength="120"></textarea>
+                </div>
+                <div class="contact-form-btn-wrapper">
+                    <button type="submit" class="contact-form-btn">send message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>    
 </body>
 </html>
