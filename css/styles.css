@@ -136,7 +136,6 @@ h2, h3 {
 /*------------------main-------------------*/
 .container-main {
   margin: 0 auto;
-  width: 1400px;
   background-color: #ffffff;
 }
 
@@ -186,17 +185,14 @@ h2, h3 {
 }
 
 .item-basket::before {
-  content: "";
   background-image:url(../image/icon/basket.png);
 }
 
 .item-laptop::before {
-  content: "";
   background-image: url(../image/icon/laptop.png);
 }
 
 .item-locked::before {
-  content: "";
   background-image: url(../image/icon/locked.png);
 }
 
@@ -226,7 +222,7 @@ h2, h3 {
   background-color: #222222;
   background-image: url(../image/map-image.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right bottom;
 }
 
 .contact-us-title {
